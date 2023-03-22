@@ -6,9 +6,12 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  rg_name: openaml
-  ws_name: nlp-workspace 
-  ado_service_connection_aml_ws: Azure-ARM-Prod
+  # rg_name: openaml
+  # ws_name: nlp-workspace 
+  # ado_service_connection_aml_ws: Azure-ARM-Prod
+  rg_name: rg-nrcan-cmss-digital-accelerator-team-sandbox
+  ws_name: newtestwksp 
+  ado_service_connection_aml_ws: "digital accelerator"
 
 steps:
 - task: UsePythonVersion@0
